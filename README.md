@@ -102,7 +102,7 @@ bot.run()
 
 ---
 
-🖼 SinaImageAPI — Version 1.0.0
+# 🖼 SinaImageAPI — Version 1.0.0
 
 SinaImageAPI is a simple and fast web service that generates an image based on any text you provide.
 You can write a short or long description, and the service returns a picture related to it.
@@ -111,14 +111,14 @@ No API key required — no complex configuration needed.
 
 ---
 
-🌐 Endpoint
+# 🌐 Endpoint
 
 https://image.api-sina-free.workers.dev/generate?text=your+text
 
 
 ---
 
-🔎 Query Parameter
+# 🔎 Query Parameter
 
 Parameter	Description	Required
 
@@ -128,7 +128,7 @@ text	The prompt or description for generating the image	✔ Yes
 
 ---
 
-📦 Response
+# 📦 Response
 
 The API returns the image directly as image/jpeg.
 No JSON, no wrapper — just the picture.
@@ -136,7 +136,7 @@ No JSON, no wrapper — just the picture.
 
 ---
 
-🧪 Example Request
+# 🧪 Example Request
 
 https://image.api-sina-free.workers.dev/generate?text=futuristic neon city at night
 
@@ -145,7 +145,7 @@ Output: JPEG image.
 
 ---
 
-💻 Example (Python)
+# 💻 Example (Python)
 
 ```py
 import requests
@@ -162,7 +162,7 @@ print("Image saved!")
 
 ---
 
-🤖 Rubika Bot Example
+# 🤖 Rubika Bot Example
 
 ```py
 from rubpy import Client, filters
