@@ -23,7 +23,7 @@ https://image.api-sina-free.workers.dev/generate?text=متن
 ## 📦 خروجی
 
 خروجی این وب‌سرویس **مستقیماً تصویر** است (image/jpeg).  
-هیچ JSON یا داده اضافه بازگردانده نمی‌شود.
+خروجی JSON وجود نداره و نمیده.
 
 ---
 
